@@ -1,6 +1,6 @@
 ﻿<metadata>
     <attr
-        path="/api/package[@name='androidx.datastore.preferences.core']/class[@name='PreferencesSerializer']/method[@name='writeTo' and count(parameter)=3 and parameter[1][@type='androidx.datastore.preferences.core.Preferences'] and parameter[2][@type='java.io.OutputStream'] and parameter[3][@type='kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;']]/parameter[1]"
+        path="/api/package[@name='androidx.datastore.preferences.core']/class[@name='PreferencesSerializer']/method[@name='writeTo' and count(parameter)=3 and parameter[1][@type='androidx.datastore.preferences.core.Preferences'] and parameter[2][@type='okio.BufferedSink'] and parameter[3][@type='kotlin.coroutines.Continuation&lt;? super kotlin.Unit&gt;']]/parameter[1]"
         name="managedType" 
         >
         Java.Lang.Object
